@@ -79,9 +79,15 @@ print()                                                                     #改
 #元のハッシュ値と求めたハッシュ値を表示する
 print(f"[A]　{selecthash}: {correcths.upper()}")
 print(f"[B]　{selecthash}: {objecths.upper()}")
+print()                                                                     #改行
 
+print("-----------------------------------------")
 #2つのハッシュ値が一致しているか否かを確認する
 if correcths.upper() == objecths.upper():
-    print("--ハッシュ値が一致しています。--")
+    print("ハッシュ値が一致しています。")
 else:
     print("*ハッシュ値が異なります。*")
+print("-----------------------------------------")
+
+print()                                                                     #改行
+input("Press any key to exit")
